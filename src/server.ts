@@ -1,17 +1,13 @@
 import express from "express";
 
+import "./database";
+
+import { routes } from "../routes";
+
 const app = express();
 
-app.get("/", (req, res) => {
-	return res.json({
-		message: "Hello!",
-	});
-});
+app.use(express.json());
 
-app.post("/", (req, res) => {
-	return res.json({
-		message: "User saved successfully",
-	});
-});
+app.use(routes);
 
 app.listen(3333, () => console.log("Server is running"));
