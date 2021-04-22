@@ -1,4 +1,4 @@
-import { Request, Response, text } from "express";
+import { Request, Response } from "express";
 import { MessagesService } from "../services/MessagesService";
 
 class MessagesController {
