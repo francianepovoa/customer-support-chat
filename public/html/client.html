@@ -15,18 +15,16 @@
 	<body>
 		<div class="chat chat_support" id="chat_in_support">
 			<div class="in_support_header">
-				<span>In support ...</span>
+				<span>In support ... </span>
 				<div class="icon_close" onclick="closeChat();">
 					<img src="/images/close.png" />
 				</div>
 			</div>
 
 			<div class="text_support">
-				<script id="email-template" type="text/template">
+				<script id="message-user-template" type="text/template">
 					<div class="client">
 					  <span class="name">{{email}}</span>
-				</script>
-				<script id="message-user-template" type="text/template">
 					  <span class="client message">
 					    {{message}}
 					    <!-- <label class="date">{{date}}</label> -->
@@ -57,7 +55,7 @@
 
 		<div class="chat chat_support" id="chat_help">
 			<div class="in_support_header">
-				<span>Start a chat</span>
+				<span>Start a support chat</span>
 				<div class="icon_close" onclick="closeChat();">
 					<img src="/images/close.png" />
 				</div>
