@@ -24,7 +24,7 @@
 Chat is an API for customer service in real-time.
 It is an application that creates a call (message) from the user to the support, where the messages are answered in real-time and saved in a database in case the user wants to return to the subject addressed(diagram).
 
-<img alt="Diagram" src=":/../public/images/db%20table.png" width="550px" height="300px"  />
+<img alt="Diagram" src="./public/images/db-table.png" width="550px" height="300px"  />
 
 Using Typescript and Express for route management, TypeORM for data manipulation and Websocket for a persistent connection between a client and server.
 This is a project developed during the [Next Level Week](https://nextlevelweek.com/inscricao/5), presented by [@Rocketseat](https://rocketseat.com.br/) during April 19-25, 2021.
@@ -32,7 +32,7 @@ This is a project developed during the [Next Level Week](https://nextlevelweek.c
 
 ## 🚀 Technologies
 <h1 align="center">
-	<img alt="Project Screenshots" src=":/../public/images/home.gif" />
+	<img alt="Project Screenshots" src="./public/images/home.gif" />
 </h1>
 
 Technologies that I used to develop this frontend app
